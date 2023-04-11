@@ -10,3 +10,6 @@ function work() {
 console.log("작업 시작!");
 work();
 console.log("다음 작업");
+var foo = null;
+console.log(typeof foo === null);
+console.log(foo === null);
